@@ -8,8 +8,8 @@
 public class myfirstprogram
 {
     public static void main(String[] args)
-    
-    System.out.printIn("This is a test. this is only a test");
-    System.out.printIn("This is a test again");
-    
+    {
+    System.out.println("This is a test. this is only a test");
+    System.out.println("This is a test again");
+}
 }

@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=project1_2
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ 2\ here.\r\n\r\n\ sarayu\ suresh\r\n\ 8/24/2021\r\nchange\ Test\ to\ test\ (in\ my\ case\ project1_2\ to\ Project1_2)\ \r\n\ \ \ \ no\ error\ messages,\ the\ capitalization\ changed\ in\ the\ name\ of\ the\ class\r\nchange\ Emergency\ to\ emergency\r\n\ \ \ \ no\ error\ messages,\ the\ capitalization\ changed\ in\ the\ printed\ message\r\nremove\ the\ first\ quotation\ mark\ in\ the\ string\ \r\n\ \ \ \ error\ message\:\ ")"\ expected\r\nremove\ the\ last\ quotation\ mark\ in\ the\ string\r\n\ \ \ \ error\ message\:\ uncloses\ string\ literal\r\nchange\ main\ to\ man\r\n\ \ \ \ no\ error\ message\ \r\nchange\ println\ to\ bogus\r\n\ \ \ \ error\ message\:\ cannot\ find\ symbol\ -\ method\ bogus\ (java.lang.String)\r\nremove\ the\ semicolon\ at\ the\ end\ of\ the\ printlnstatement\r\n\ \ \ \ error\ message\:\ ";"\ expected\r\nremove\ the\ last\ brace\ in\ the\ program\r\n\ \ \ \ error\ message\:\ reached\ end\ of\ fil\ while\ parsing\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2
