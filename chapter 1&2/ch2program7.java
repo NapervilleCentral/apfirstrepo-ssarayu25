@@ -1,33 +1,32 @@
+// Name: Alex Montchik, Sarayu Suresh
+// 8/30/21
+// Title: Program 2.7
+// Entering seconds and print out hours, mins, and seconds
 
-/**
- * Write a description of class ch2program7 here.
- *
- * @author (your name)
- * @version (a version number or a date)
- */
+import java.util.Scanner;
 public class ch2program7
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class ch2program7
-     */
-    public ch2program7()
+    public static void main (String[] args)
     {
-        // initialise instance variables
-        x = 0;
-    }
-
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
-    }
+        Scanner Keyboard = new Scanner(System.in);
+        
+        int seconds;
+        int minutes;
+        int hours;
+        int secondsleft;
+        
+        System.out.println("Enter seconds: ");
+        seconds = Keyboard.nextInt();
+        
+        //converting the seconds to hours/min/secs format
+        hours = seconds / 3600;
+        minutes = (seconds / 60) % 60;
+        secondsleft = seconds - hours * 3600 - minutes * 60;
+        
+        System.out.println("There are " + hours + " hours, " + minutes + " minutes and " + secondsleft + " seconds.");
+        
+        
+    }   
+    
+    
 }

@@ -28,3 +28,8 @@ public class project1_2
             System.out.println ("An Emergency Broadcast");
         }
     }    
+    
+    
+/*
+ *  An Emergency Broadcast
+ */
