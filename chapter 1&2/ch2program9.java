@@ -15,18 +15,20 @@ public class ch2program9
         double area;
         double circumference;
         
+        DecimalFormat fmt = new DecimalFormat("0.###");
+
+        
         System.out.println("Enter radius: ");
-        radius = Keyboard.nextInt();
+        radius = Keyboard.nextFloat();
         
         // area
         area = Math.PI *  Math.pow(radius, 2);
-        System.out.println("The area is " + area);
-        DecimalFormat fmt =new DecimalFormat("0.###");
+        System.out.println("The area is: " + fmt.format(area));
         
         
         // circumference
         circumference = 2 * Math.PI * radius;
-        System.out.println("The circumference is " + circumference);
+        System.out.println("The circumference is " + fmt.format(fmt.format(area)));
         
     }   
     
