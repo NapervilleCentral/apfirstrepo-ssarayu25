@@ -15,7 +15,7 @@ public class ch2program9
         double area;
         double circumference;
         
-        DecimalFormat fmt = new DecimalFormat("0.###");
+        DecimalFormat fmt = new DecimalFormat("0.##");
 
         
         System.out.println("Enter radius: ");
@@ -28,7 +28,7 @@ public class ch2program9
         
         // circumference
         circumference = 2 * Math.PI * radius;
-        System.out.println("The circumference is " + fmt.format(fmt.format(area)));
+        System.out.println("The circumference is " + fmt.format(circumference));
         
     }   
     
