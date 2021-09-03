@@ -1,22 +1,29 @@
 // Name: Sarayu Suresh
 // 9/2/21
 // Title: Program 2.14
-// generate random number
+// generate random phone number 
 import java.util.Random;
-
+import java.text.DecimalFormat;
 public class ch2program14
 {
   public static void main (String[] args)
    { 
-       Random rand = new Random();
+       Random generator = new Random();
 
-       int num1, num2, num3;
-
-    num1 = rand.nextInt (900) + 100;
-    num2 = rand.nextInt (643) + 100;
-    num3 = rand.nextInt (9000) + 1000;
-
-    System.out.println(num1+"-"+num2+"-"+num3);
+    
+    //generate numbers
+    int part1 = generator.nextInt (7);
+    int part2 = generator.nextInt (7);
+    int part3 = generator.nextInt (7);
+    int part4 = generator.nextInt (742);
+    int part5 = generator.nextInt (9999);
+    
+    //formatting
+    DecimalFormat three = new DecimalFormat("000"); 
+    DecimalFormat four = new DecimalFormat("0000"); 
+    
+    //print output
+    System.out.println("Generated Phone Number: " + part1 + part2 + part3 + "-" + three.format(part4) + "-" + four.format(part5));
         
         
         
@@ -24,3 +31,9 @@ public class ch2program14
         
 
 }
+
+
+// two example outputs
+//
+//Generated Phone Number: 532-139-9836
+//Generated Phone Number: 625-735-0931
