@@ -1,5 +1,5 @@
 // Name: Sarayu Suresh
-// 9/2/21 and 9/13/21
+// 9/2/21 and 9/13/21 and 9/14/21
 // Title: Name program
 // Input full name, prints first, middle inital, and last on seperate lines 
 import java.util.Scanner;
@@ -11,7 +11,7 @@ public class ch2labprogram
       Scanner Keyboard = new Scanner(System.in);
       
       System.out.println("Enter Full Name: ");
-      String name = Keyboard.nextLine();
+      String name = Keyboard.nextLine();      
       
       //splitting name into two parts 
       int find = name.lastIndexOf(" ");
